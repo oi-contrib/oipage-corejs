@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time</title>
+    <script src="../dist/core.js"></script>
+</head>
+
+<body>
+
+    <script>
+
+        // let Time=new corejs.Time()
+        // let Time = new corejs.Time(new Date("2024/12/11"))
+        let Time = new corejs.Time("2024/10/9", {
+            output: "MM月dd日 yyyy年"
+        })
+        console.log(Time)
+
+        // console.log(Time.valueOf())
+        // Time.addYear(1)
+        // Time.addMonth(-123)
+        // Time.addDay(143)
+        console.log(Time.valueOf())
+
+    </script>
+</body>
+
+</html>
