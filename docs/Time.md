@@ -1,6 +1,7 @@
 # Time 时间&日期
 
 ```js
+import { Time } from "@oipage/core.js"
 let time = new Time(date, format)
 ```
 

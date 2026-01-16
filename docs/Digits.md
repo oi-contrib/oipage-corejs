@@ -1,6 +1,7 @@
 # Digits 数字
 
 ```js
+import { Digits } from "@oipage/core.js"
 let digits = new Digits(value)
 ```
 
